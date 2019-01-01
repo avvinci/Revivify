@@ -1,7 +1,7 @@
 {
-  "name": "Revivify Event Popup",
+  "name": "Revivify",
   "description": "Demonstrates usage and features of the event page by reminding user to freshen",
-  "version": "1.0",
+  "version": "2.0",
   "manifest_version": 2,
   "permissions": ["alarms", "notifications", "storage"],
   "background": {
@@ -9,7 +9,7 @@
     "persistent": false
   },
   "browser_action": {
-    "default_title": "Revivify Water Event",
+    "default_title": "Revivify",
     "default_popup": "popup.html"
   },
   "icons": {
