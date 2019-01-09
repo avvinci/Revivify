@@ -12,6 +12,28 @@
         margin: 5px;
       }
 
+
+      button {
+        color: #169DF5 ;
+        text-transform: uppercase;
+        background: #ffffff;
+        margin: 4px;
+        padding: 15px;
+        border: 3px solid #169DF5 ;
+        border-radius: 6px;
+        display: inline-block;
+
+      }
+
+        button:hover {
+        color: #494949 ;
+        border-radius: 50px;
+        border-color: #494949 ;
+        transition: all 0.3s ease 0s;
+      }
+
+
+/* 
       button{
           background:#33AFFF;
           color:#fff;
@@ -49,15 +71,26 @@
       button:hover:before,button:hover:after{
           width:100%;
           transition:800ms ease all;
-      }
+      } */
 
     </style>
 
   </head>
   <body>
+ 
       <img src='./stay_hydrated.png' id='hydrateImage'>
+      <div style="padding: 10px 10px 10px 10px;">           
+             
+            <p>Set your Work duration : </p>         
+            <input id="name_textbox" />                   
+             <button id="ok_btn" type="button" class="example_d">Done</button>
+    </div> 
+
+    <div style="padding: 5px 5px 5px 5px;">           
+      <label> Default Duration's : </label>
+</div> 
       <button id='sampleSecond' value='0.2'>10 Sec</button>
-      <button id='5min' value='2'>5 Min</button>
+      <button id='5min' value='5'>5 Min</button>
       <button id='25min' value='25'>25 Min</button>
       <button id='cancelAlarm'>Cancel Alarm</button>
    <!-- link to non-persistent background script -->
