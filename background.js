@@ -16,7 +16,7 @@ chrome.alarms.onAlarm.addListener(function() {
 
 chrome.notifications.onButtonClicked.addListener(function() {
   chrome.storage.sync.get(['minutes'], function(item) {
-    chrome.browserAction.setBadgeText({text: 'ON'});
+    chrome.browserAction.setBadgeText({text: 'A'});
     chrome.alarms.create({delayInMinutes: item.minutes});
   });
 });
